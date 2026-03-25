@@ -1,0 +1,54 @@
+/* FULL PAGE */
+.dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+.dashboard-header {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+
+.dashboard-header h1 {
+  margin: 0;
+}
+
+.dashboard-header p {
+  color: #cbd5f5;
+}
+
+/* SECTION */
+.section-title {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+/* CARDS */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* BUTTON */
+.primary-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: white;
+  cursor: pointer;
+}
